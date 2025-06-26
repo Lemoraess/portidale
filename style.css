@@ -216,9 +216,9 @@ footer .social-links a {
 }
 
 @media (max-width: 990px) {
-  h1 {
+  header h1 {
     font-size: 30px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
   }
 
   h3 {
