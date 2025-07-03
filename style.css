@@ -113,6 +113,7 @@ footer .social-links a {
 .containerBody {
   max-width: 1000px;
   margin: 0 auto;
+  margin-top: 30px;
   background-color: var(--background-color);
 }
 
@@ -161,7 +162,6 @@ footer .social-links a {
   font-size: 18px;
   font-weight: 500;
   color: white;
-  margin: 50px;
 }
 
 .btn-light {
