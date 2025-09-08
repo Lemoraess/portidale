@@ -46,6 +46,9 @@ span {
 em {
   color: var(--secundary-color);
 }
+.about em {
+  color: var(--primary-color);
+}
 
 strong {
   color: var(--primary-color);
@@ -129,8 +132,6 @@ footer .social-links a {
 }
 
 .icons-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
   margin-top: 150px;
 }
 
