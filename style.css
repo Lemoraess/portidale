@@ -1,8 +1,9 @@
 :root {
   --primary-color: #3499c3;
   --secundary-color: #cb663c;
-  --background-color: #f6f0fb;
-  --background-violet-color: #efe8fa;
+  --background-color: #3e3050;
+  --background-violet-color: #cb663c;
+  --light-color: #cccffd;
 }
 
 body {
@@ -10,7 +11,11 @@ body {
   background-color: var(--background-color);
 }
 
-header h1 {
+header {
+  margin: 100px 30px;
+}
+
+h1 {
   font-weight: 500;
   font-size: 40px;
   letter-spacing: 15px;
@@ -18,6 +23,10 @@ header h1 {
 
 h2 {
   color: var(--primary-color);
+}
+
+header h5 {
+  font-size: 14px;
 }
 
 h3 {
@@ -30,17 +39,8 @@ p {
   opacity: 0.8;
 }
 
-header {
-  text-align: center;
-  background-color: var(--background-color);
-}
-
 span {
   color: var(--secundary-color);
-}
-
-header h5 {
-  font-size: 14px;
 }
 
 em {
@@ -71,10 +71,15 @@ img {
 
 section {
   padding: 30px;
+  color: var(--light-color);
 }
 
 footer {
   margin: 60px 0;
+}
+
+footer p {
+  color: var(--light-color) !important;
 }
 
 footer .contact-box {
@@ -85,7 +90,6 @@ footer .contact-box {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
   font-size: 22px;
 }
 
@@ -117,8 +121,12 @@ footer .social-links a {
   background-color: var(--background-color);
 }
 
+.navbar {
+  background-color: var(--light-color) !important;
+}
+
 .navTitle {
-  color: var(--primary-color);
+  color: var(--secundary-color);
 }
 
 .active {
@@ -137,7 +145,7 @@ footer .social-links a {
 
 .title {
   text-align: left;
-  margin-top: 150px;
+  margin-top: 150px !important;
 }
 
 .links {
