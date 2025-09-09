@@ -12,9 +12,12 @@ body {
 }
 
 header {
-  margin: 100px 30px;
+  margin: 100px;
 }
 
+header img {
+  margin-left: 100px;
+}
 h1 {
   font-weight: 500;
   font-size: 40px;
@@ -39,8 +42,12 @@ p {
   opacity: 0.8;
 }
 
-span {
+header span {
   color: var(--secundary-color);
+}
+
+span {
+  color: var(--primary-color);
 }
 
 em {
@@ -63,9 +70,10 @@ li {
 }
 
 main {
-  margin: 0px 100px 30px 100px;
+  margin: 0px 200px 30px 200px;
   text-align: left;
   padding: none;
+  font-size: 18px;
 }
 
 img {
@@ -213,9 +221,13 @@ footer .social-links a {
 }
 
 .photo-about {
-  max-width: 80%;
+  max-width: 70%;
   border-radius: 50%;
   aspect-ratio: 1/1;
+}
+
+.about {
+  margin: 60px 100px;
 }
 
 .about .title {
@@ -223,7 +235,7 @@ footer .social-links a {
 }
 
 .titleSkills {
-  margin: 0px 100px 0px 100px;
+  margin: 0px 150px 0px 150px;
 }
 
 .contact-title {
