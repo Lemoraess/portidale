@@ -53,6 +53,7 @@ strong {
 
 .about strong {
   font-weight: 500;
+  color: var(--secundary-color);
 }
 
 li {
