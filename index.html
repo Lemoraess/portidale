@@ -51,7 +51,7 @@
     <div class="containerBody">
         <section>
             <header>
-                <div class="row mb-5">
+                <div class="row mb-md-5">
                     <div class="col-lg-6">
                         <img src="images/pic-perfil.jpeg" class="img-fluid float-end photo-perfil"
                             alt="Picture of Lenise" />
@@ -124,116 +124,123 @@
         </section>
         <p class="text-center m-5 subtitle">Featured some projects on my programming journey</p>
 
-        <div id="header-carousel" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <section>
-                        <div class="row m-md-5">
-                            <div class="col d-none d-lg-block">
-                                <img class="img-fluid float-end" src="images/oyaReact.jpeg" alt="photo of Oyá App">
-                            </div>
-                            <div class="col p-2 ms-lg-5">
-                                <h2 class="text-center text-lg-start m-5">Oyá Weather App</h2>
-                                <p class="text-center text-lg-start m-5">Inspired by Oyá, a divine being of the Yoruba
-                                    religion,
-                                    considered
-                                    the lady of winds and storms, her
-                                    strength
-                                    is
-                                    expressed in
-                                    weather phenomena. In this version, Oyá app shows in real time the weather forecast
-                                    for the
-                                    next
-                                    five days
-                                    anywhere in
-                                    the
-                                    world, it is responsive and <em>was coded using React JS.</em></p>
-                                <a href="https://reactprojectweather.netlify.app/" target="_blank" rel="noopener"
-                                    title="Go to Oya Weather App" class="btn btn-light">Oyá Weather
-                                    App</a>
-                            </div>
+                    <div class="row m-md-5">
+                        <div class="col d-none d-lg-block">
+                            <img class="img-fluid float-end" src="images/oyaReact.jpeg" alt="photo of Oyá App">
                         </div>
+                        <div class="col p-2 ms-lg-5">
+                            <h2 class="text-center text-lg-start m-5">Oyá Weather App</h2>
+                            <p class="text-center text-lg-start m-5">Inspired by Oyá, a divine being of the Yoruba
+                                religion,
+                                considered
+                                the lady of winds and storms, her
+                                strength
+                                is
+                                expressed in
+                                weather phenomena. In this version, Oyá app shows in real time the weather forecast
+                                for the
+                                next
+                                five days
+                                anywhere in
+                                the
+                                world, it is responsive and <em>was coded using React JS.</em></p>
+                            <a href="https://reactprojectweather.netlify.app/" target="_blank" rel="noopener"
+                                title="Go to Oya Weather App" class="btn btn-light">Oyá Weather
+                                App</a>
+                        </div>
+                    </div>
                 </div>
-                </section>
                 <div class="carousel-item">
-                    <section class="violet">
-                        <div class="row m-md-5">
-                            <div class="col p-2 me-lg-5">
-                                <h2 class="text-center text-lg-end m-5">My Dictionary App</h2>
-                                <p class="text-center text-lg-end m-5">Created using Responsive mode My Dictionary
-                                    is a
-                                    word
-                                    search application that provides definitions, phonetics, examples,
-                                    synonyms and images. It integrates <span>API, Bootstrap using React JS.</span></p>
-                                <a href="https://dictionaryreactaddonproject.netlify.app/" target="_blank"
-                                    rel="noopener" title="Go to Dictionary App" class="btn btn-light">
-                                    Dictionary App</a>
+                    <div class="row m-md-5">
+                        <div class="col p-2 me-lg-5">
+                            <h2 class="text-center text-lg-end m-5">My Dictionary App</h2>
+                            <p class="text-center text-lg-end m-5">Created using Responsive mode My Dictionary
+                                is a
+                                word
+                                search application that provides definitions, phonetics, examples,
+                                synonyms and images. It integrates <em>API, Bootstrap using React JS.</em></p>
+                            <a href="https://dictionaryreactaddonproject.netlify.app/" target="_blank" rel="noopener"
+                                title="Go to Dictionary App" class="btn btn-light">
+                                Dictionary App</a>
 
-                            </div>
-                            <div class="col d-none d-lg-block img-app">
-                                <img class="img-fluid" src="images/dictionary.jpeg" alt="Photo of Dictionary App">
-                            </div>
                         </div>
-                    </section>
+                        <div class="col d-none d-lg-block img-app">
+                            <img class="img-fluid" src="images/dictionary.jpeg" alt="Photo of Dictionary App">
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <section>
-                        <div class="row m-md-5">
-                            <div class="col d-none d-lg-block img-app">
-                                <img class="img-fluid float-end" src="images/ubatubaSite.jpeg"
-                                    alt="photo of Poem Generator App">
-                            </div>
-                            <div class="col app-description p-2 ms-lg-5">
-                                <h2 class="text-center text-lg-start m-5">Welcome to Ubatuba Site</h2>
-                                <p class="text-center text-lg-start m-5">
-                                    Known as the "Capital of Surfing" in Brazil,
-                                    Ubatuba was the city chosen for the Responsive Add-on workshop challenge. Made only
-                                    with
-                                    <em>HTML,
-                                        CSS and JavaScript</em>, the
-                                    website presents the city with a modern and fully responsive design.
-                                </p>
-                                <a href="https://welcometoubatuba.netlify.app/" target="_blank" rel="noopener"
-                                    title="Go to Welcome to Ubatuba site" class="btn btn-light">
-                                    Ubatuba
-                                    Site</a>
-                            </div>
+                    <div class="row m-md-5">
+                        <div class="col d-none d-lg-block img-app">
+                            <img class="img-fluid float-end" src="images/ubatubaSite.jpeg"
+                                alt="photo of Poem Generator App">
                         </div>
-                    </section>
+                        <div class="col app-description p-2 ms-lg-5">
+                            <h2 class="text-center text-lg-start m-5">Welcome to Ubatuba Site</h2>
+                            <p class="text-center text-lg-start m-5">
+                                Known as the "Capital of Surfing" in Brazil,
+                                Ubatuba was the city chosen for the Responsive Add-on workshop challenge. Made only
+                                with
+                                <em>HTML,
+                                    CSS and JavaScript</em>, the
+                                website presents the city with a modern and fully responsive design.
+                            </p>
+                            <a href="https://welcometoubatuba.netlify.app/" target="_blank" rel="noopener"
+                                title="Go to Welcome to Ubatuba site" class="btn btn-light">
+                                Ubatuba
+                                Site</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <section class="violet">
-                        <div class="row m-md-5">
-                            <div class="col p-2 me-lg-5">
-                                <h2 class="text-center text-lg-end m-5">World Clocks App</h2>
-                                <p class="text-center text-lg-end m-5">The World Clocks Add was made useing only
-                                    JavaScript
-                                    and provides actual time at diverse locations around the world. Was made during the
-                                    SheCodes bootcamp and shows the abilit to cook new data. <span>Built with HTML, CSS
-                                        and JavaScript.</span> </p>
-                                <a href="https://worldclockhomeworkshecodeslenise.netlify.app/" target="_blank"
-                                    rel="noopener" title="Go to Dictionary App" class="btn btn-light">
-                                    Dictionary App</a>
+                    <div class="row m-md-5">
+                        <div class="col p-2 me-lg-5">
+                            <h2 class="text-center text-lg-end m-5">World Clocks App</h2>
+                            <p class="text-center text-lg-end m-5">The World Clocks Add was made useing only
+                                JavaScript
+                                and provides actual time at diverse locations around the world. Was made during the
+                                SheCodes bootcamp and shows the abilit to cook new data. <em>Built with HTML, CSS
+                                    and JavaScript.</em> </p>
+                            <a href="https://worldclockhomeworkshecodeslenise.netlify.app/" target="_blank"
+                                rel="noopener" title="Go to Dictionary App" class="btn btn-light">
+                                Dictionary App</a>
 
-                            </div>
-                            <div class="col d-none d-lg-block img-app">
-                                <img class="img-fluid" src="images/worldClocks.jpeg" alt="Photo of Dictionary App">
-                            </div>
                         </div>
-                    </section>
+                        <div class="col d-none d-lg-block img-app">
+                            <img class="img-fluid" src="images/worldClocks.jpeg" alt="Photo of Dictionary App">
+                        </div>
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+
+
+
+
+
         <div class="container">
 
 
