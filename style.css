@@ -249,6 +249,10 @@ footer .social-links a {
   margin: 0 auto;
 }
 
+.empathy-map {
+  max-width: 60%;
+}
+
 .about {
   margin: 60px 100px;
 }
