@@ -10,9 +10,6 @@ body {
   background-color: var(--background-color);
 }
 
-header {
-  margin-top: 100px;
-}
 
 h1 {
   font-weight: 500;
@@ -122,9 +119,16 @@ footer .social-links a {
   font-size: 25px;
 }
 
+#picle {
+  background: url(images/ledesign.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 40%;
+
+}
+
 .containerBody {
   margin: 0 auto;
-  margin-top: 30px;
   background-color: var(--background-color);
   max-width: 1700px;
 }
@@ -181,8 +185,6 @@ footer .social-links a {
 
 .photo-perfil {
   max-width: 90%;
-  border-radius: 50%;
-  aspect-ratio: 1/1;
 }
 
 .title {
