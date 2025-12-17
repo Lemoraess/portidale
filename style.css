@@ -299,12 +299,21 @@ a:hover {
   font-size: 14px;
 }
 
-.titleSheCodes {
-  margin-top: 50px;
+.title h1 {
+  font-size: 100px;
+  color: var(--secundary-color);
+  font-family: 'ahsing';
+  
 }
 
 .title span {
-  font-size: 30px;
+  font-size: 50px;
+  color: var(--dark-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.titleSheCodes {
+  margin-top: 50px;
 }
 
 .titleSkills {
