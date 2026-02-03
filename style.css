@@ -5,10 +5,10 @@
 }
 
 :root {
-  --primary-color: #3499c3;
+  --primary-color: #A66996;
   --secundary-color: #fc773e;
-  --light-color: #f3f0f7;
-  --dark-color: #3E3050;
+  --light-color: #3E3050;
+  --dark-color: #f3f0f7;
 
 }
 
@@ -142,8 +142,8 @@ a:hover {
   background: url(images/ledesign.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 30%;
-  background-position: 150px 50px;
+  background-size: 45%;
+  background-position: 50px 30px;
   margin: 0;
 
 }
@@ -268,7 +268,7 @@ a:hover {
 }
 
 .navbar {
-  background-color: var(--light-color) !important;
+  background-color: rgba(67, 29, 49, 0.6) !important;
 }
 
 .navTitle {
