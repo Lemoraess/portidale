@@ -13,16 +13,6 @@ body {
   background-color: var(--secundary-color);
 }
 
-.container {
-  font-family: "Poppins", sans-serif;
-  background-color: var(--primary-color);
-  max-width: 1200px !important;
-  margin: 0 auto;
-  color: var(--primary-color);
-  padding: 0px;
-}
-
-
 h1 {
   font-weight: 500;
   font-size: 60px;
@@ -194,6 +184,15 @@ a:hover {
   padding: 10px 20px;
   font-size: 18px;
   color: var(--secundary-color);
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary-color);
+  max-width: 1200px !important;
+  margin: 0 auto;
+  color: var(--primary-color);
+  padding: 0px;
 }
 
 .contact-title {
