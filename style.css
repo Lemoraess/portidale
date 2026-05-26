@@ -1,20 +1,25 @@
-
 @font-face {
   font-family: 'ahsing';
   src: url('fonts/typogama-ahsing.otf') format('truetype')
 }
 
 :root {
-  --primary-color: #A66996;
-  --secundary-color: #fc773e;
-  --light-color: #3E3050;
-  --dark-color: #f3f0f7;
-
+  --primary-color: #E0E6EF;
+  --secundary-color: #20243c;
+  --third-color: #f4a136;
 }
 
 body {
+  background-color: var(--secundary-color);
+}
+
+.container {
   font-family: "Poppins", sans-serif;
-  background-color: var(--light-color);
+  background-color: var(--primary-color);
+  max-width: 1200px !important;
+  margin: 0 auto;
+  color: var(--primary-color);
+  padding: 0px;
 }
 
 
@@ -22,11 +27,11 @@ h1 {
   font-weight: 500;
   font-size: 60px;
   letter-spacing: 15px;
-  margin-top: 100px;
+  padding: 60px;
 }
 
 h2 {
-  color: var(--primary-color);
+  color: var(--secundary-color);
   font-size: 20px;
 }
 
@@ -41,12 +46,12 @@ h4{
 
 h6 {
   font-size: 12px;
-  color: var(--primary-color);
+  color: var(--secundary-color);
 }
 
 header h2 {
   font-size: 18px;
-  color: var(--primary-color);
+  color: var(--secundary-color);
 }
 
 header h5 {
@@ -64,26 +69,27 @@ header .title {
 
 header span {
 font-size: 25px;
+color: var(--third-color);
 }
 
 p {
   line-height: 2;
   opacity: 0.8;
-  color: var(--dark-color);
+  color:  var(--secundary-color);
   font-size: 14px;
 }
 
 span {
-  color: var(--secundary-color);
+  color: var(--third-color);
   font-size: 14px;
 }
 
 em {
-  color: var(--primary-color);
+  color: var(--third-color);
 }
 
 strong {
-  color: var(--primary-color);
+  color: var(--third-color);
 }
 
 
@@ -96,18 +102,25 @@ img {
 }
 
 section {
-  padding: 30px;
-  color: var(--dark-color);
+  color: var(--secundary-color);
 }
 
 footer {
   margin-top: 60px;
+  color: var(--primary-color);
+}
+
+footer a {
+  color: var(--primary-color) !important;
+}
+
+footer p {
+  color: var(--primary-color);
 }
 
 footer .contact-box {
-  background-color: var(--primary-color);
+  background-color: var(--secundary-color);
   padding: 30px 120px;
-  border-radius: 10px;
 }
 
 footer .email-link {
@@ -120,49 +133,35 @@ footer .email-link:hover {
   color: var(--secundary-color);
 }
 
-
 footer .social-links a {
   margin: 0 20px;
-  background-color: var(--light-color);
-  padding: 10px 14px;
+  color: var(--primary-color);
+  padding: 5px;
   border-radius: 50%;
+  aspect-ratio: 1/1;
   font-size: 25px;
 }
 
+footer .social-links-id:hover {
+  color: var(--third-color) !important;
+  transition: 200ms ease-in-out;
+}
+
 a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--secundary-color);
-}
-
-#picle {
-  background: url(images/ledesign.png);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: 45%;
-  background-position: 50px 30px;
-  margin: 0;
-
-}
-
-.about strong {
-  font-weight: 500;
-  color: var(--secundary-color);
+  color: var(--third-color);
 }
 
 .about {
-  margin: 60px 100px;
-}
-
-.about .title {
-  margin-top: 30px;
+  padding: 0px 150px;
 }
 
 .active {
-  color: var(--secundary-color) !important;
+  color: var(--third-color) !important;
 }
 
 .btn-violet:hover {
@@ -171,8 +170,7 @@ a:hover {
 
 .btn-light {
   background-color: var(--light-color);
-  border: solid 2px var(--dark-color);
-  color: var(--dark-color);
+  color: var(--secundary-color);
   padding: 10px 20px;
   font-size: 18px;
   display: block;
@@ -183,25 +181,19 @@ a:hover {
 
 .btn-light:hover {
   background-color: var(--secundary-color);
-  color: var(--dark-color);
-  border-color: var(--dark-color);
+  color: var(--primary-color);
 }
 
 .btn-portifolio:hover {
-  color: var(--secundary-color);
+  background-color: var(--third-color);
+  color: var(--primary-color);
 }
 
 .btn-violet {
   background-color: var(--primary-color);
   padding: 10px 20px;
   font-size: 18px;
-  color: white;
-}
-
-.containerBody {
-  margin: 0 auto;
-  background-color: var(--light-color);
-  max-width: 1200px;
+  color: var(--secundary-color);
 }
 
 .contact-title {
@@ -219,8 +211,8 @@ a:hover {
 }
 
 .carousel button:hover {
-  color: var(--dark-color);
-  background-color: rgba(67, 29, 49, 0.6);
+  color: var(--secundary-color);
+  background-color: rgba(84, 51, 70, 0.6);
 }
 
 .empathy-map {
@@ -231,19 +223,24 @@ a:hover {
   opacity: 0.4;
 }
 
+.img-link {
+  opacity: 0.5;
+  max-width: 50%;
+}
+
 .img-link:hover {
-  opacity: 0.6;
+  opacity: 1;
   cursor: pointer;
-  scale: 0.95;
+  scale: 1.2;
   transition: 200ms ease-in-out;
 }
 
 .icons-grid {
-  margin-top: 300px !important;
+  margin-top: 60px !important;
 }
 
 .icon {
-  color: var(--dark-color);
+  color: var(--third-color);
   text-align: center;
 }
 
@@ -260,7 +257,11 @@ a:hover {
 
 .links {
   margin: 20px 200px;
-  color: var(--primary-color);
+  color: var(--secundary-color);
+}
+
+.link-different {
+  color: var(--third-color);
 }
 
 .madoo {
@@ -268,15 +269,18 @@ a:hover {
 }
 
 .navbar {
-  background-color: rgba(67, 29, 49, 0.6) !important;
+  background-color: rgba(253, 247, 250, 0.3) !important;
 }
 
 .navTitle {
-  color: var(--secundary-color);
+  color: var(--third-color);
 }
 
 .photo-perfil {
   max-width: 90%;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+
 }
 
 .photo-about {
@@ -291,6 +295,26 @@ a:hover {
   margin: 0 auto;
 }
 
+
+#picle {
+  background: url(images/leecriança.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+background-size: cover;
+background-position: center;
+}
+
+.picle {
+  height: 300px;
+  background-size: cover;
+}
+
+.section-uxcases {
+  padding: 0px;
+  margin: 100px 50px;
+}
+
 .subtitle {
   color: var(--secundary-color);
 }
@@ -300,16 +324,16 @@ a:hover {
 }
 
 .title h1 {
-  font-size: 100px;
+  font-size: 80px;
   color: var(--secundary-color);
-  font-family: 'ahsing';
-  
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 100;
+  letter-spacing: 20px;
 }
 
 .title span {
-  font-size: 50px;
-  color: var(--dark-color);
-  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  color: var(--third-color);
 }
 
 .titleSheCodes {
@@ -321,18 +345,18 @@ a:hover {
 }
 
 .violet {
-  background-color: var(--dark-color);
+  background-color: var(--secundary-color);
   max-width: 70%;
   margin: 0 auto !important;
   border-radius: 20px;
 }
 
 .violet h2 {
-  color: var(--light-color)
+  color: var(--primary-color);
 }
 
 .violet p {
-  color: var(--light-color);
+  color: var(--primary-color);
 }
 
 .workTitle {
