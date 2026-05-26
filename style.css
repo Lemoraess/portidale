@@ -85,6 +85,7 @@ strong {
 
 li {
   opacity: 0.8;
+  color: var(--secundary-color);
 }
 
 img {
