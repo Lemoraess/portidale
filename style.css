@@ -17,7 +17,7 @@ h1 {
   font-weight: 500;
   font-size: 40px;
   letter-spacing: 15px;
-  padding: 60px;
+  padding: 60px 10px 0 10px;
 }
 
 h2 {
