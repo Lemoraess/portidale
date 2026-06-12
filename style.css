@@ -236,9 +236,6 @@ a:hover {
   transition: 200ms ease-in-out;
 }
 
-.icons-grid {
-  margin-top: 60px !important;
-}
 
 .icon {
   color: var(--third-color);
